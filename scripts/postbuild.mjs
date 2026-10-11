@@ -14,3 +14,7 @@ fs.writeFileSync('dist/index.html',html);
 fs.writeFileSync('dist/404.html',html.replace('<head>','<head><script>if(!location.hash)location.replace('+JSON.stringify(c.basePath+'#/404')+');</script>'));
 fs.writeFileSync('dist/robots.txt','User-agent: *\nAllow: /\nSitemap: '+root+'sitemap.xml\n');
 fs.writeFileSync('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>'+root+'</loc></url></urlset>');
+
+// Stable printed-book address, independent of the hash router.
+fs.mkdirSync('dist/musica',{recursive:true});
+fs.writeFileSync('dist/musica/index.html', '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Experiencia sonora · ARCA-∅</title><meta http-equiv="refresh" content="0;url='+c.basePath+'#/musica"><script>location.replace('+JSON.stringify(c.basePath+'#/musica')+');</script></head><body><a href="'+c.basePath+'#/musica">Experiencia sonora · ARCA-∅</a></body></html>');
