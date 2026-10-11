@@ -18,7 +18,7 @@ test('language, menu, gallery, disabled reservations and 404',async({page})=>{
  await page.getByRole('button',{name:'Menu',exact:true}).click();await expect(page.locator('dialog.menu-dialog')).toBeVisible();
  await page.locator('dialog.menu-dialog').getByRole('link',{name:/Gallery/}).click();await expect(page.locator('h1')).toContainText('Chosen objects');
  await page.locator('.photo-grid button').first().click();await expect(page.locator('dialog.lightbox')).toBeVisible();await page.keyboard.press('Escape');
- await page.goto('./#/reservas');await expect(page.locator('fieldset')).toBeDisabled();await expect(page.locator('input').first()).toBeDisabled();
+ await page.goto('./#/reservas');await expect(page.locator('fieldset')).toHaveAttribute('disabled','');for(const control of await page.locator('fieldset input, fieldset select, fieldset button').all())await expect(control).toBeDisabled();
  await page.goto('./#/nonexistent');await expect(page.locator('h1')).toContainText('taking longer');
 });
-test('visual captures',async({page},info)=>{await page.goto('./');await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.fonts.ready);await page.locator('.hero img').evaluate((im:HTMLImageElement)=>im.decode());await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});});
+test('visual captures',async({page},info)=>{await page.goto('./');await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(async()=>{await Promise.all([...document.images].map(async im=>{im.loading='eager';await im.decode().catch(()=>{});}));});await page.locator('.hero img').evaluate((im:HTMLImageElement)=>im.decode());await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});});

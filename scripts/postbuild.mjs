@@ -1,4 +1,8 @@
 import fs from 'node:fs';
+for (const file of fs.readdirSync('public/images')) {
+ const b=fs.readFileSync('public/images/'+file);
+ if(b.length<32 || b.toString('ascii',0,4)!=='RIFF' || b.toString('ascii',8,12)!=='WEBP') throw new Error('Invalid WebP asset: '+file);
+}
 const c=JSON.parse(fs.readFileSync('site.config.json','utf8'));
 const root=c.siteOrigin.replace(/\/$/,'')+c.basePath;
 let html=fs.readFileSync('dist/index.html','utf8').replaceAll('__OG_IMAGE__',root+'images/og-1600.webp').replaceAll('__SITE_URL__',root);
