@@ -423,22 +423,22 @@
     "hostingPolicy": "Hosting privacy policy"
   },
   "alt": {
-    "master": "Aerial view of the stepped concrete resort, Aurora Lounge, glacier to the left and pier on the inlet.",
-    "hero": "Aurora Lounge glowing at blue hour, with the inlet ahead and glacier to the left.",
-    "aurora": "Aurora interior with a monumental glass wall, mahogany table and twelve chairs facing the glacier.",
+    "master": "Aerial summer view of the Arca: concrete blocks, Aurora pavilion at the eastern end, glacier to the right and private pier.",
+    "hero": "The Aurora glowing at March blue hour, with the glacier to the right of the hotel and the Crown’s red tip light.",
+    "aurora": "Aurora interior with curved glass, laminated timber beams and a mahogany table for twelve, glacier to the left.",
     "garden-suite": "Garden Suite with linen bedding, pale timber and a glazed gallery.",
     "high-suite": "Upper Suite with a three-metre window overlooking the inlet.",
     "crown-suite": "Crown Suite living room with dining area, private pantry and panoramic views.",
     "garden": "Glazed gallery with four trees in planters and a bronze hand sculpture.",
     "food": "Arctic char with dill and pickles on a ceramic plate.",
     "spa": "Outdoor hot tub and spa terrace facing the glacier.",
-    "omnimed": "Omni-Med v4 capsule with a white examination bed and sensor dome.",
+    "omnimed": "Omni-Med v4 diagnostic capsule in the windowless service-level infirmary, with artificial lighting and a soft blue sensor light.",
     "snowmobile": "Snowmobile on a winter trail marked with red-striped poles.",
     "kayak": "Kayak on calm Svalbard waters beneath the midnight sun.",
-    "dock": "Arca private pier with helipad and a small unloading crane.",
+    "dock": "Private pier with helipad, small unloading crane, black steel sheet piling and broad stairs to the loading yard.",
     "watch": "Watch boutique window with unbranded timepieces on stone displays.",
-    "cam": "Last frame of the empty Aurora with its mahogany table and glacier beyond.",
-    "og": "Panoramic view of the Arca beside a Svalbard glacier.",
-    "winter": "Northern lights above the inlet and resort during winter."
+    "cam": "Frame from a fixed high-corner camera in the empty Aurora, with its mahogany table and glacier beyond.",
+    "og": "Summer panorama of the Arca above the inlet, with the Aurora and glacier east of the building.",
+    "winter": "Northern lights above the frozen inlet, with the glacier to the right of the Arca and the Crown’s red tip light."
   }
 }

@@ -423,22 +423,22 @@
     "hostingPolicy": "Política de privacidad del alojamiento"
   },
   "alt": {
-    "master": "Vista aérea del complejo de hormigón escalonado, Aurora Lounge, glaciar a la izquierda y muelle sobre la ensenada.",
-    "hero": "Aurora Lounge iluminado en la hora azul, con la ensenada delante y el glaciar a la izquierda.",
-    "aurora": "Interior del Aurora, gran pared de cristal, mesa de caoba y doce sillas frente al glaciar.",
+    "master": "Vista aérea del Arca en verano: bloques de hormigón, Aurora en el extremo este, glaciar a la derecha y muelle privado.",
+    "hero": "El Aurora iluminado en la hora azul de marzo, con el glaciar a la derecha del hotel y el piloto rojo de la Corona.",
+    "aurora": "Interior del Aurora: pared curva de vidrio, vigas de madera y mesa de caoba para doce, con el glaciar a la izquierda.",
     "garden-suite": "Suite del Jardín con cama de lino, madera clara y galería acristalada.",
     "high-suite": "Suite Alta con ventanal de tres metros sobre la ensenada.",
     "crown-suite": "Salón de la Suite Corona con comedor, despensa privada y vistas panorámicas.",
     "garden": "Galería acristalada con cuatro árboles en jardineras y una escultura de una mano de bronce.",
     "food": "Trucha ártica con eneldo y encurtidos presentada en un plato de cerámica.",
     "spa": "Jacuzzi exterior y terraza del spa ante el glaciar.",
-    "omnimed": "Cápsula Omni-Med v4, cama blanca de exploración y cúpula de sensores.",
+    "omnimed": "Cápsula de diagnóstico Omni-Med v4 en la enfermería sin ventanas del nivel de servicio, con iluminación artificial y luz azul suave.",
     "snowmobile": "Moto de nieve en una pista invernal marcada con postes de franja roja.",
     "kayak": "Kayak en aguas tranquilas de Svalbard bajo el sol de medianoche.",
-    "dock": "Muelle privado del Arca con helipuerto y pequeña grúa de descarga.",
+    "dock": "Muelle privado con helipuerto, pequeña grúa, frente de tablestacas negras y escalinata hacia el patio de carga.",
     "watch": "Escaparate de relojería con piezas sin marca sobre soportes de piedra.",
-    "cam": "Último fotograma del Aurora vacío, mesa de caoba y glaciar al fondo.",
-    "og": "Panorámica del Arca junto al glaciar de Svalbard.",
-    "winter": "Aurora boreal sobre la ensenada y el resort en la temporada de invierno."
+    "cam": "Fotograma de una cámara fija en una esquina alta del Aurora vacío, con la mesa de caoba y el glaciar al fondo.",
+    "og": "Panorámica de verano del Arca sobre la ensenada, con el Aurora y el glaciar al este del edificio.",
+    "winter": "Aurora boreal sobre la ensenada helada, con el glaciar a la derecha del Arca y el piloto rojo de la Corona."
   }
 }

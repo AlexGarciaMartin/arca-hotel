@@ -50,7 +50,7 @@ La contrapartida es que los fragmentos no se indexan como páginas independiente
 
 ## Imágenes y tipografía
 
-17 fotografías generadas expresamente, con el exterior maestro como referencia. Cada una tiene variantes WebP de 480, 960 y 1600 píxeles: 51 archivos, aproximadamente 5 MB en total. `Photo` implementa `srcset`, `sizes`, dimensiones y carga diferida; el hero tiene prioridad de descarga. OpenGraph dispone de su propia imagen.
+17 conjuntos de imágenes generadas expresamente. La revisión selectiva renueva siete fotografías con una referencia exterior común y deriva OpenGraph de la nueva imagen maestra; las nueve fotografías restantes se conservan. Cada conjunto tiene variantes WebP de 480, 960 y 1600 píxeles: 51 archivos, aproximadamente 5 MB en total. `Photo` implementa `srcset`, `sizes`, dimensiones y carga diferida; el hero tiene prioridad de descarga. OpenGraph dispone de su propia imagen.
 
 Inventario y dirección de los prompts: `IMAGE_PROMPTS.md`. Los originales de generación no son necesarios para construir la web; las versiones WebP finales están incluidas en el repositorio.
 
