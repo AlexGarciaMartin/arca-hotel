@@ -21,7 +21,7 @@
     "back": "Return home",
     "skip": "Skip to content",
     "localTime": "local time · Longyearbyen",
-    "book": "Your stay",
+    "book": "Book a stay",
     "more": "Read the full notice",
     "less": "Hide details",
     "pause": "Pause images",
@@ -56,49 +56,53 @@
   },
   "notice": {
     "title": "Notice to our guests — 14 July 2026",
-    "short": "Temporary closure · Stays cancelled with a full refund.",
+    "short": "Hotel temporarily closed · Reservations suspended",
     "body": "Following the instructions of the archipelago authorities, and as a precaution due to instability at the glacier front, the Arca remains temporarily closed. All scheduled stays have been cancelled and will be refunded in full. Reopening expected within the next 72 hours.",
     "update": "Update: until further notice"
   },
   "home": {
     "eyebrow": "SVALBARD, NORWAY · SUMMER 2026",
     "title": "Where time\nstands still",
-    "subtitle": "A hotel at the edge of Svalbard. Open since June 2026.",
+    "subtitle": "Thirty-two suites between glacier and sea. Svalbard, Norway.",
     "introLabel": "WELCOME TO THE ARCA",
-    "introTitle": "Here the sun does not set\nuntil the end of August.",
-    "intro": "One hundred and twenty kilometres from Longyearbyen, at the end of a coast with no roads, between an inlet and a glacier. Thirty-two suites, a restaurant, a glass room above the water. And nothing else for a very long way. That is the idea.",
+    "introTitle": "The Arctic,\nin complete comfort.",
+    "intro": "One hundred and twenty kilometres from Longyearbyen, the Arca overlooks an inlet with no roads or villages in sight. Timber and stone suites, Nordic cuisine and a glass lounge facing the glacier. The final stretch is by helicopter or by sea. From there, we take care of everything.",
     "zeroLabel": "THE MEANING OF ∅",
-    "zeroTitle": "A zero\nin the name.",
+    "zeroTitle": "Less noise.\nMore space.",
     "zeros": [
       [
         "01",
         "Zero footprint",
-        "Our heat comes from the air, not from diesel. The snowmobiles and quads are electric. Water goes back into the inlet cleaner than it came out."
+        "Heat pumps, electric mobility and water treatment. Our idea of luxury begins with caring for the place that welcomes us."
       ],
       [
         "02",
         "Zero noise",
-        "The Aurora rests on its own rubber joint. Below, the machines work; above, not a glass trembles."
+        "An acoustic joint separates the Aurora from the building. The machinery keeps working. The glasses remain still."
       ],
       [
         "03",
         "Zero hurry",
-        "In July night never falls. There is no time for dinner and no time to come back. There is light, and the table stays laid."
+        "A late breakfast, a paddle beneath the midnight sun, an unhurried evening at the table. There is time to stay."
       ]
     ],
-    "quote": "“The most expensive thing anyone can offer you in 2026 is that nobody knows where you are. The Arca charges for it handsomely, and it is worth it.”",
-    "press": "NORD / JOURNAL · SUMMER SELECTION 2026",
-    "suiteTitle": "Thirty-two suites.\nNone faces another.",
+    "quote": "In the Aurora, the landscape does not stay beyond the window: it fills the room. A hotel worth the journey to the end of the coast.",
+    "press": "NORD / JOURNAL · TRAVEL · JUNE 2026",
+    "suiteTitle": "Thirty-two suites.\nAn entire horizon.",
     "suiteText": "From the glazed garden to the Crown Suite, at the very top of the building.",
-    "experiencesTitle": "Days here last\nas long as you like.",
+    "experiencesTitle": "A stay\nat your own pace.",
     "auroraText": "Ten metres of curved glass, a mahogany table for twelve and the glacier on your left.",
-    "wellnessText": "Water at thirty-eight degrees. Ice a hundred metres away.",
-    "expeditionsText": "Kayaking under the midnight sun, the glacier on foot, the inlet by snowmobile. Always with a guide."
+    "wellnessText": "The warmth of the water. The stillness of the glacier.",
+    "expeditionsText": "The glacier on foot and the inlet by kayak. In winter, a sky lit by the northern lights. Always with our guides.",
+    "bookingLabel": "YOUR STAY AT THE ARCA",
+    "bookingStatus": "Reservations temporarily suspended",
+    "bookingNote": "The hotel remains closed. All scheduled stays have been cancelled and will be refunded in full.",
+    "bookingDetails": "Information and refunds"
   },
   "arca": {
     "eyebrow": "THE PLACE",
-    "title": "Concrete,\ntimber and snow.",
-    "intro": "The Arca rests on the slope like one more stone. Outside, dark concrete. Inside, pale timber. Between the two, a very careful way of keeping the cold out.",
+    "title": "Architecture\nfor the Arctic.",
+    "intro": "Dark concrete on the slope, pale timber inside and windows open to the inlet. The Arca is built to inhabit this landscape in comfort, even in the depths of winter.",
     "sections": [
       [
         "Stone and timber",
@@ -127,11 +131,11 @@
   },
   "aurora": {
     "eyebrow": "AURORA LOUNGE",
-    "title": "The northernmost\ntable.",
-    "intro": "A wall of curved glass ten metres high. The inlet straight ahead, the glacier on the left, up the slope. On clear days you can see the far shore; on days of fog, nothing at all, and that is worth it too.",
+    "title": "A lounge open\nto the horizon.",
+    "intro": "Ten metres of curved glass, the inlet straight ahead and the glacier to the left. The Aurora is where you return after an outing and where you stay when you feel like going nowhere at all.",
     "tableTitle": "The captain’s table",
-    "table": "A single piece of mahogany, made by a cabinetmaker in Bergen. Twelve chairs. On Saturdays we dine here, all together, at nine. The evening ends when it ends.",
-    "barTitle": "The bar.",
+    "table": "A single piece of mahogany, worked by a cabinetmaker in Bergen. Twelve chairs around the captain’s table. Every Saturday at nine, we serve a shared dinner here, leaving time for a long evening.",
+    "barTitle": "The bar",
     "bar": "Cocktails made to be drunk slowly while looking at the glacier. Also alcohol-free.",
     "cocktails": [
       [
@@ -158,8 +162,8 @@
   },
   "suites": {
     "eyebrow": "STAYS",
-    "title": "Three ways\nto close the door.",
-    "intro": "Linen, stone and pale timber. No television in sight: if you want one, ask.",
+    "title": "Your place\noverlooking the inlet.",
+    "intro": "Three suite categories, the same care for your rest. Linen, stone and pale timber. Open views and room to settle in.",
     "items": [
       {
         "name": "Garden Suites",
@@ -206,8 +210,8 @@
   },
   "dining": {
     "eyebrow": "DINING",
-    "title": "What there is,\ndone well.",
-    "intro": "Cold-water fish, island lamb, summer berries. A short menu that changes with whatever arrives on the boat.",
+    "title": "The north,\nat the table.",
+    "intro": "Cold-water fish, lamb and seasonal berries. Cooking led by its ingredients, with a short menu that follows the rhythm of our deliveries.",
     "sections": [
       [
         "The restaurant",
@@ -232,19 +236,19 @@
   },
   "wellness": {
     "eyebrow": "WELLNESS",
-    "title": "Hot water,\nfreezing air.",
+    "title": "A refuge\nfacing the ice.",
     "intro": "Sauna, treatments and an outdoor hot tub facing the glacier, at thirty-eight degrees.",
     "spaTitle": "The spa",
     "spa": "Open from seven in the morning until midnight, which in summer means during the day. Massages and treatments by appointment.",
     "medTitle": "Omni-Med v4",
-    "medSubtitle": "A hospital, one bed away.",
-    "med": "The nearest hospital is one hundred and twenty kilometres away. That is why the Arca has its own doctor and an Omni-Med v4 diagnostic capsule, connected in real time to specialists in Zurich. You should not need it. But it is there.",
+    "medSubtitle": "Precision medicine, close to you.",
+    "med": "The Arca has its own medical service and an Omni-Med v4 diagnostic capsule. Connected in real time to our specialists in Zurich, it provides an initial assessment without leaving the hotel.",
     "medNote": "Medical service led by Dr Anya Tamm."
   },
   "expeditions": {
     "eyebrow": "EXPEDITIONS",
     "title": "Outside,\nthe Arctic.",
-    "intro": "Expeditions is our house of guides. They leave every day from the garage on the main floor, carrying the gear, the food and the rifle.",
+    "intro": "Our guides accompany you beyond the hotel. Routes chosen for the weather and terrain, small groups and all equipment prepared before you set out.",
     "items": [
       [
         "The glacier",
@@ -267,13 +271,13 @@
         "snowmobile"
       ]
     ],
-    "safetyTitle": "Bears.",
-    "safety": "There are more polar bears than people in Svalbard. No outing leaves without an armed, trained guide, as the archipelago's law requires. Please never wander away from the hotel on your own, not even for a photograph.",
+    "safetyTitle": "Exploring safely",
+    "safety": "Polar bears are part of this environment. Every outing is accompanied by armed guides with specialist training and deterrent equipment. Always follow their instructions and do not leave the hotel grounds on your own.",
     "suspended": "No expeditions operate during the temporary closure."
   },
   "gallery": {
     "eyebrow": "THE GALLERY",
-    "title": "Three shops\nin the gallery.",
+    "title": "Chosen objects\nto accompany you.",
     "intro": "On the main floor, between the lobby and the restaurant.",
     "shops": [
       [
@@ -325,9 +329,9 @@
     ]
   },
   "reservations": {
-    "eyebrow": "YOUR STAY",
-    "title": "Reservations",
-    "intro": "We are writing personally to every guest affected by the closure. Thank you for your patience.",
+    "eyebrow": "RESERVATIONS",
+    "title": "Reservations\ntemporarily suspended",
+    "intro": "The Arca remains closed until further notice. All scheduled stays have been cancelled and will be refunded in full. Our team is contacting every affected guest.",
     "arrival": "Arrival",
     "departure": "Departure",
     "guests": "Guests",
@@ -361,8 +365,8 @@
   },
   "team": {
     "eyebrow": "OUR PEOPLE",
-    "title": "Who is\nhere.",
-    "intro": "The Arca is run by, among others, these four people.",
+    "title": "The people\nbehind the Arca.",
+    "intro": "Four people responsible for the same promise: care in every detail of your stay.",
     "people": [
       [
         "Ingrid Brandt",

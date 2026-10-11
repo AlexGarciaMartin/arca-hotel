@@ -21,7 +21,7 @@
     "back": "Volver al inicio",
     "skip": "Saltar al contenido",
     "localTime": "hora local · Longyearbyen",
-    "book": "Su estancia",
+    "book": "Reservar",
     "more": "Leer el aviso completo",
     "less": "Ocultar detalles",
     "pause": "Pausar imágenes",
@@ -56,49 +56,53 @@
   },
   "notice": {
     "title": "Aviso a nuestros huéspedes — 14 de julio de 2026",
-    "short": "Cierre temporal · Estancias canceladas y reembolso íntegro.",
+    "short": "Hotel cerrado temporalmente · Reservas suspendidas",
     "body": "Siguiendo las indicaciones de las autoridades del archipiélago, y como medida preventiva por la inestabilidad del frente glaciar, el Arca permanece cerrado temporalmente. Todas las estancias previstas han sido canceladas y se reembolsarán íntegramente. Reapertura prevista en las próximas 72 horas.",
     "update": "Actualización: hasta nuevo aviso"
   },
   "home": {
     "eyebrow": "SVALBARD, NORUEGA · VERANO 2026",
     "title": "Donde el tiempo\nse detiene",
-    "subtitle": "Un hotel en el borde de Svalbard. Abierto desde junio de 2026.",
+    "subtitle": "Treinta y dos suites entre el glaciar y el mar. Svalbard, Noruega.",
     "introLabel": "BIENVENIDO AL ARCA",
-    "introTitle": "Aquí el sol no se pone\nhasta finales de agosto.",
-    "intro": "A ciento veinte kilómetros de Longyearbyen, al final de una costa sin carreteras, entre una ensenada y un glaciar. Treinta y dos suites, un restaurante, un salón de cristal sobre el agua. Y nada más en muchos kilómetros a la redonda. Esa es la idea.",
+    "introTitle": "El Ártico,\ncon todas las comodidades.",
+    "intro": "A ciento veinte kilómetros de Longyearbyen, el Arca se abre a una ensenada sin carreteras ni pueblos a la vista. Suites de madera y piedra, cocina nórdica y un salón de cristal frente al glaciar. El último tramo se hace en helicóptero o por mar. A partir de ahí, nosotros nos ocupamos de todo.",
     "zeroLabel": "EL SIGNIFICADO DE ∅",
-    "zeroTitle": "Un cero\nen el nombre.",
+    "zeroTitle": "Menos ruido.\nMás espacio.",
     "zeros": [
       [
         "01",
         "Huella cero",
-        "La calefacción sale del aire, no del gasóleo. Las motos de nieve y los quads son eléctricos. El agua vuelve a la ensenada más limpia de lo que salió."
+        "Bombas de calor, movilidad eléctrica y tratamiento del agua. Nuestra idea de lujo empieza por cuidar el lugar que nos recibe."
       ],
       [
         "02",
         "Ruido cero",
-        "El Aurora descansa sobre su propia junta de goma. Abajo trabajan las máquinas; arriba no tiembla una copa."
+        "Una junta acústica separa el Aurora del edificio. Las máquinas siguen trabajando. Las copas, inmóviles."
       ],
       [
         "03",
         "Prisa cero",
-        "En julio no anochece. No hay hora de cenar ni de volver. Hay luz, y la mesa sigue puesta."
+        "Desayunar tarde, salir al agua bajo el sol de medianoche, alargar la sobremesa. Aquí hay tiempo para quedarse."
       ]
     ],
-    "quote": "«Lo más caro que te pueden ofrecer en 2026 es que nadie sepa dónde estás. El Arca lo cobra bien, y lo vale.»",
-    "press": "NORD / JOURNAL · SELECCIÓN DE VERANO 2026",
-    "suiteTitle": "Treinta y dos suites.\nNinguna mira a otra.",
+    "quote": "En el Aurora, el paisaje no queda al otro lado de la ventana: ocupa la estancia. Un hotel que merece el viaje hasta el fin de la costa.",
+    "press": "NORD / JOURNAL · VIAJES · JUNIO DE 2026",
+    "suiteTitle": "Treinta y dos suites.\nTodo el horizonte.",
     "suiteText": "Del jardín acristalado a la Suite Corona, en lo más alto del edificio.",
-    "experiencesTitle": "Los días aquí\nduran lo que usted quiera.",
+    "experiencesTitle": "Una estancia\na su propio ritmo.",
     "auroraText": "Diez metros de cristal curvo, una mesa de caoba para doce y el glaciar a la izquierda.",
-    "wellnessText": "Agua a treinta y ocho grados. Hielo a cien metros.",
-    "expeditionsText": "Kayak con sol de medianoche, el glaciar a pie, la ensenada en moto de nieve. Siempre con guía."
+    "wellnessText": "El calor del agua. La quietud del glaciar.",
+    "expeditionsText": "El glaciar a pie y la ensenada en kayak. En invierno, el cielo bajo las auroras. Siempre con nuestros guías.",
+    "bookingLabel": "SU ESTANCIA EN EL ARCA",
+    "bookingStatus": "Reservas suspendidas temporalmente",
+    "bookingNote": "El hotel permanece cerrado. Todas las estancias previstas se han cancelado y se reembolsarán íntegramente.",
+    "bookingDetails": "Información y reembolsos"
   },
   "arca": {
     "eyebrow": "EL LUGAR",
-    "title": "Hormigón,\nmadera y nieve.",
-    "intro": "El Arca se apoya en la ladera como una piedra más. Por fuera, hormigón oscuro. Por dentro, madera clara. Entre los dos, una manera muy cuidadosa de dejar el frío fuera.",
+    "title": "Arquitectura\npara el Ártico.",
+    "intro": "Hormigón oscuro en la ladera, madera clara en el interior y ventanales abiertos a la ensenada. El Arca está construido para habitar este paisaje con comodidad, incluso en pleno invierno.",
     "sections": [
       [
         "La piedra y la madera",
@@ -127,11 +131,11 @@
   },
   "aurora": {
     "eyebrow": "AURORA LOUNGE",
-    "title": "La mesa\nmás al norte.",
-    "intro": "Una pared de cristal curvo de diez metros de alto. La ensenada de frente, el glaciar a la izquierda, ladera arriba. En días claros se ve el otro lado del agua; en días de niebla, nada, y también merece la pena.",
+    "title": "Un salón abierto\nal horizonte.",
+    "intro": "Diez metros de cristal curvo, la ensenada de frente y el glaciar a la izquierda. El Aurora es el lugar al que volver después de una salida y en el que quedarse cuando no apetece ir a ninguna parte.",
     "tableTitle": "La mesa del capitán",
-    "table": "Una sola pieza de caoba, hecha por un ebanista de Bergen. Doce sillas. Los sábados se cena aquí, todos juntos, a las nueve. La sobremesa termina cuando termina.",
-    "barTitle": "La barra.",
+    "table": "Caoba de una sola pieza, trabajada por un ebanista de Bergen. Doce sillas alrededor de la mesa del capitán. Cada sábado, a las nueve, servimos aquí una cena compartida que deja sitio a una larga sobremesa.",
+    "barTitle": "La barra",
     "bar": "Cócteles pensados para beberse despacio mirando el glaciar. También sin alcohol.",
     "cocktails": [
       [
@@ -158,8 +162,8 @@
   },
   "suites": {
     "eyebrow": "ESTANCIAS",
-    "title": "Tres maneras\nde cerrar la puerta.",
-    "intro": "Lino, piedra y madera clara. Ninguna televisión a la vista: si la quiere, la pide.",
+    "title": "Su lugar\nfrente a la ensenada.",
+    "intro": "Tres categorías de suite, una misma atención al descanso. Lino, piedra y madera clara. Vistas abiertas y espacio para instalarse sin prisas.",
     "items": [
       {
         "name": "Suites del Jardín",
@@ -206,8 +210,8 @@
   },
   "dining": {
     "eyebrow": "GASTRONOMÍA",
-    "title": "Lo que hay,\nbien hecho.",
-    "intro": "Pescado de aguas frías, cordero de las islas, bayas del verano. Una carta corta que cambia según lo que llega en la lancha.",
+    "title": "El norte,\na la mesa.",
+    "intro": "Pescado de aguas frías, cordero y bayas de temporada. Una cocina de producto, con una carta breve que sigue el ritmo de nuestras entregas.",
     "sections": [
       [
         "El restaurante",
@@ -232,19 +236,19 @@
   },
   "wellness": {
     "eyebrow": "BIENESTAR",
-    "title": "Agua caliente,\naire helado.",
+    "title": "Un refugio\nfrente al hielo.",
     "intro": "Sauna, tratamientos y un jacuzzi exterior frente al glaciar, a treinta y ocho grados.",
     "spaTitle": "El spa",
     "spa": "Abierto de siete de la mañana a medianoche, que en verano es lo mismo que decir de día. Masajes y tratamientos con reserva previa.",
     "medTitle": "Omni-Med v4",
-    "medSubtitle": "Un hospital, a una cama de distancia.",
-    "med": "El hospital más cercano está a ciento veinte kilómetros. Por eso el Arca tiene médica propia y una cápsula de diagnóstico Omni-Med v4, conectada en tiempo real con especialistas en Zúrich. Usted no debería necesitarla. Pero está.",
+    "medSubtitle": "Medicina de precisión, cerca de usted.",
+    "med": "El Arca cuenta con servicio médico propio y una cápsula de diagnóstico Omni-Med v4. Conectada en tiempo real con nuestros especialistas en Zúrich, permite una valoración inicial sin salir del hotel.",
     "medNote": "Servicio médico a cargo de la Dra. Anya Tamm."
   },
   "expeditions": {
     "eyebrow": "EXPEDITIONS",
     "title": "Fuera,\nel Ártico.",
-    "intro": "Expeditions es nuestra casa de guías. Salen cada día del garaje de la planta principal, con el equipo, la comida y el rifle a cuestas.",
+    "intro": "Nuestros guías le acompañan fuera del hotel. Rutas elegidas según el tiempo y el estado del terreno, grupos reducidos y todo el equipo preparado antes de salir.",
     "items": [
       [
         "El glaciar",
@@ -267,13 +271,13 @@
         "snowmobile"
       ]
     ],
-    "safetyTitle": "Osos.",
-    "safety": "En Svalbard hay más osos polares que personas. Ninguna salida se hace sin un guía armado y entrenado, como exige la ley del archipiélago. Por favor, no se aleje nunca solo del hotel, ni siquiera para hacer una foto.",
+    "safetyTitle": "Salir con seguridad",
+    "safety": "El oso polar forma parte de este entorno. Todas nuestras salidas van acompañadas por guías armados, con formación y medios de disuasión. Siga siempre sus indicaciones y no se aleje del hotel por su cuenta.",
     "suspended": "Durante el cierre temporal no se realizan expediciones."
   },
   "gallery": {
     "eyebrow": "LA GALERÍA",
-    "title": "Tres tiendas\nen la galería.",
+    "title": "Objetos elegidos\npara acompañarle.",
     "intro": "En la planta principal, entre el vestíbulo y el restaurante.",
     "shops": [
       [
@@ -325,9 +329,9 @@
     ]
   },
   "reservations": {
-    "eyebrow": "SU ESTANCIA",
-    "title": "Reservas",
-    "intro": "Estamos escribiendo personalmente a cada huésped afectado por el cierre. Gracias por su paciencia.",
+    "eyebrow": "RESERVAS",
+    "title": "Reservas suspendidas\ntemporalmente",
+    "intro": "El Arca permanece cerrado hasta nuevo aviso. Todas las estancias previstas se han cancelado y se reembolsarán íntegramente. Nuestro equipo está contactando con cada huésped afectado.",
     "arrival": "Llegada",
     "departure": "Salida",
     "guests": "Huéspedes",
@@ -361,8 +365,8 @@
   },
   "team": {
     "eyebrow": "NUESTRO EQUIPO",
-    "title": "Quiénes\nestán aquí.",
-    "intro": "El Arca la llevan, entre otros, estas cuatro personas.",
+    "title": "Las personas\ndetrás del Arca.",
+    "intro": "Cuatro responsables de una misma promesa: que cada detalle de su estancia esté cuidado.",
     "people": [
       [
         "Ingrid Brandt",

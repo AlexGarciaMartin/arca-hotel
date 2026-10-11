@@ -34,9 +34,24 @@ test('language, menu, gallery, disabled reservations and 404',async({page})=>{
  await page.goto('./');await expect(page.locator('h1')).toContainText('Donde el tiempo');
  await page.getByRole('button',{name:'EN',exact:true}).click();await expect(page.locator('h1')).toContainText('Where time');
  await page.getByRole('button',{name:'Menu',exact:true}).click();await expect(page.locator('dialog.menu-dialog')).toBeVisible();
- await page.locator('dialog.menu-dialog').getByRole('link',{name:/Gallery/}).click();await expect(page.locator('h1')).toContainText('Three shops');
+ await page.locator('dialog.menu-dialog').getByRole('link',{name:/Gallery/}).click();await expect(page.locator('h1')).toContainText('Chosen objects');
  await page.locator('.photo-grid button').first().click();await expect(page.locator('dialog.lightbox')).toBeVisible();await page.keyboard.press('Escape');
  await page.goto('./#/reservas');await expect(page.locator('fieldset')).toHaveAttribute('disabled','');for(const control of await page.locator('fieldset input, fieldset select, fieldset button').all())await expect(control).toBeDisabled();
  await page.goto('./#/nonexistent');await expect(page.locator('h1')).toContainText('taking longer');
 });
 test('visual captures',async({page},info)=>{await page.goto('./');await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(async()=>{await Promise.all([...document.images].map(async im=>{im.loading='eager';await im.decode().catch(()=>{});}));});await page.locator('.hero img').evaluate((im:HTMLImageElement)=>im.decode());await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});});
+
+test('reservation access and suspension are visible on arrival',async({page})=>{
+ await page.goto('./');
+ const booking=page.locator('.hero-booking');
+ await expect(page.locator('.reservation-link')).toBeVisible();
+ await expect(booking).toContainText('Reservas suspendidas temporalmente');
+ await expect(booking).toContainText('reembolsarán íntegramente');
+ const box=await booking.boundingBox();expect(box).not.toBeNull();
+ expect(box!.y+box!.height).toBeLessThanOrEqual(page.viewportSize()!.height);
+ expect(box!.y).toBeGreaterThan(0);
+ await booking.getByRole('link',{name:'Reservar',exact:false}).first().click();
+ await expect(page).toHaveURL(/#\/reservas$/);
+ await expect(page.locator('h1')).toContainText('Reservas suspendidas');
+ for(const control of await page.locator('fieldset input, fieldset select, fieldset button').all())await expect(control).toBeDisabled();
+});
