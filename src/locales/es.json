@@ -331,12 +331,12 @@
   "reservations": {
     "eyebrow": "RESERVAS",
     "title": "Reservas suspendidas\ntemporalmente",
-    "intro": "El Arca permanece cerrado hasta nuevo aviso. Todas las estancias previstas se han cancelado y se reembolsarán íntegramente. Nuestro equipo está contactando con cada huésped afectado.",
+    "intro": "Si tenía una estancia prevista, aquí encontrará información sobre su reserva y cómo contactar con nuestro equipo. Estamos escribiendo personalmente a cada huésped afectado.",
     "arrival": "Llegada",
     "departure": "Salida",
     "guests": "Huéspedes",
-    "search": "Reservas temporalmente suspendidas",
-    "disabled": "Las reservas están suspendidas hasta nuevo aviso.",
+    "search": "Consultar disponibilidad",
+    "disabled": "El calendario se habilitará cuando se confirme la reapertura.",
     "faqTitle": "Información para nuestros huéspedes",
     "faq": [
       [

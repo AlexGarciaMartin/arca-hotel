@@ -331,12 +331,12 @@
   "reservations": {
     "eyebrow": "RESERVATIONS",
     "title": "Reservations\ntemporarily suspended",
-    "intro": "The Arca remains closed until further notice. All scheduled stays have been cancelled and will be refunded in full. Our team is contacting every affected guest.",
+    "intro": "If you had a stay planned, you will find information about your booking and how to contact our team here. We are writing personally to every affected guest.",
     "arrival": "Arrival",
     "departure": "Departure",
     "guests": "Guests",
-    "search": "Reservations temporarily suspended",
-    "disabled": "Reservations are suspended until further notice.",
+    "search": "Check availability",
+    "disabled": "The calendar will be enabled once reopening is confirmed.",
     "faqTitle": "Information for our guests",
     "faq": [
       [
