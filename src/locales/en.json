@@ -423,8 +423,8 @@
     "hostingPolicy": "Hosting privacy policy"
   },
   "alt": {
-    "master": "Panorama of the small Arca beneath the midnight sun: tall Aurora atop the right end of the concrete block, red-tipped spire and glacier separated by a rocky slope.",
-    "hero": "The Arca under the midnight sun, with the Aurora perched atop the concrete and its front half cantilevered without columns.",
+    "master": "The small Arca beneath immense mountains: rectangular Aurora at the same floor level as the main floor, with its right half cantilevered and glacier to the right.",
+    "hero": "The Arca under the midnight sun: the Aurora rests on the service plinth and shares the main floor’s elevation.",
     "aurora": "Aurora interior with curved glass, laminated timber beams and a mahogany table for twelve, glacier to the left.",
     "garden-suite": "Garden Suite with linen bedding, pale timber and a glazed gallery.",
     "high-suite": "Upper Suite with a three-metre window overlooking the inlet.",
@@ -435,10 +435,10 @@
     "omnimed": "Omni-Med v4 diagnostic capsule in the windowless service-level infirmary, with artificial lighting and a soft blue sensor light.",
     "snowmobile": "Snowmobile on a winter trail marked with red-striped poles.",
     "kayak": "Kayak on calm Svalbard waters beneath the midnight sun.",
-    "dock": "Private dock with helipad and small crane; behind it, the Aurora perched atop the hotel and a distant glacier to the right.",
+    "dock": "Dock with helipad and small crane below the Arca; the Aurora rests on the service plinth and its right half projects over the slope.",
     "watch": "Watch boutique window with unbranded timepieces on stone displays.",
     "cam": "Frame from a fixed high-corner camera in the empty Aurora, with its mahogany table and glacier beyond.",
-    "og": "The small Arca beneath immense Svalbard mountains, with the Aurora atop the block and the glacier to the right.",
-    "winter": "Northern lights above the frozen inlet, with the small Arca, its elevated Aurora and a glacier separated by a snowy slope."
+    "og": "Midnight-sun panorama of the Arca, with the rectangular Aurora beside the main floor and a distant glacier to the right.",
+    "winter": "Northern lights above the Arca and frozen inlet; the rectangular Aurora shares the main floor elevation and projects toward the glacier."
   }
 }

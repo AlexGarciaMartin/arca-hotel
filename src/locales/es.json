@@ -423,8 +423,8 @@
     "hostingPolicy": "Política de privacidad del alojamiento"
   },
   "alt": {
-    "master": "Panorámica del pequeño Arca bajo el sol de medianoche: Aurora alto sobre el extremo derecho del bloque, aguja roja y glaciar separado por una ladera rocosa.",
-    "hero": "El Arca bajo el sol de medianoche, con el Aurora elevado sobre el hormigón y su mitad delantera en voladizo sin pilares.",
+    "master": "El pequeño Arca ante grandes montañas: caja rectangular del Aurora al mismo nivel de suelo que la planta principal, con la mitad derecha en voladizo y el glaciar a la derecha.",
+    "hero": "El Arca bajo el sol de medianoche: el Aurora se apoya sobre el zócalo y comparte la altura de suelo de la planta principal.",
     "aurora": "Interior del Aurora: pared curva de vidrio, vigas de madera y mesa de caoba para doce, con el glaciar a la izquierda.",
     "garden-suite": "Suite del Jardín con cama de lino, madera clara y galería acristalada.",
     "high-suite": "Suite Alta con ventanal de tres metros sobre la ensenada.",
@@ -435,10 +435,10 @@
     "omnimed": "Cápsula de diagnóstico Omni-Med v4 en la enfermería sin ventanas del nivel de servicio, con iluminación artificial y luz azul suave.",
     "snowmobile": "Moto de nieve en una pista invernal marcada con postes de franja roja.",
     "kayak": "Kayak en aguas tranquilas de Svalbard bajo el sol de medianoche.",
-    "dock": "Muelle privado con helipuerto y grúa pequeña; detrás, el Aurora elevado sobre el hotel y el glaciar distante a la derecha.",
+    "dock": "Muelle con helipuerto y grúa pequeña bajo el Arca; el Aurora se apoya en el zócalo y su mitad derecha vuela sobre la ladera.",
     "watch": "Escaparate de relojería con piezas sin marca sobre soportes de piedra.",
     "cam": "Fotograma de una cámara fija en una esquina alta del Aurora vacío, con la mesa de caoba y el glaciar al fondo.",
-    "og": "El pequeño Arca entre grandes montañas de Svalbard, con el Aurora sobre el bloque y el glaciar a la derecha.",
-    "winter": "Aurora boreal sobre la ensenada helada, con el pequeño Arca, el Aurora elevado y el glaciar separado por una ladera nevada."
+    "og": "Panorámica del Arca bajo el sol de medianoche, con el Aurora rectangular junto a la planta principal y el glaciar distante a la derecha.",
+    "winter": "Aurora boreal sobre el Arca y la ensenada helada; el Aurora rectangular comparte cota de suelo con la planta principal y vuela hacia el glaciar."
   }
 }
