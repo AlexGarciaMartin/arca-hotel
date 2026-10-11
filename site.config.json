@@ -1,1 +1,8 @@
-{"basePath":"/arca-hotel/","siteOrigin":"https://alexgarciamartin.github.io","fundName":"","bookUrl":"","reservationEmail":"reservas@arca-hotel.book","imageRevision":"aurora-alzado"}
+{
+  "basePath": "/",
+  "siteOrigin": "https://arca-hotel.com",
+  "fundName": "",
+  "bookUrl": "",
+  "reservationEmail": "reservas@arca-hotel.book",
+  "imageRevision": "aurora-alzado"
+}
