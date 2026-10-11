@@ -44,14 +44,14 @@
     "privacy": "Privacy",
     "cookies": "Cookies",
     "date": "14 July 2026",
-    "homeMeta": "A luxury retreat between glacier and sea in Svalbard. Temporary closure information and stays.",
+    "homeMeta": "A hotel at the edge of Svalbard, between a glacier and the sea. Notice to our guests: temporarily closed since 14 July 2026.",
     "bookPending": "Book information coming soon",
     "fiction": "ARCA-∅ is a fictional place from the novel \"Arca-∅\" by A. Riven",
     "notFound": "This page is taking longer than expected to arrive.",
-    "notFoundSub": "Perhaps it has taken a detour. Allow us to guide you back.",
+    "notFoundSub": "Please return to the home page. We will be waiting there.",
     "photoCredit": "Resort photography",
-    "planCaption": "Conceptual section · not an evacuation plan",
-    "mapCaption": "Approximate location · illustrative map, not for navigation",
+    "planCaption": "Section of the building on the slope",
+    "mapCaption": "The Arca, 120 km from Longyearbyen along the coast",
     "newsletter": "The privilege of being far away."
   },
   "notice": {
@@ -63,57 +63,57 @@
   "home": {
     "eyebrow": "SVALBARD, NORWAY · SUMMER 2026",
     "title": "Where time\nstands still",
-    "subtitle": "A place apart from the world. A different way to inhabit it.",
+    "subtitle": "A hotel at the edge of Svalbard. Open since June 2026.",
     "introLabel": "WELCOME TO THE ARCA",
-    "introTitle": "Some places take you somewhere.\nOthers take you away from everything.",
-    "intro": "120 kilometres along the coast from Longyearbyen, between a silent inlet and the ancient pulse of a glacier, a new idea of hospitality takes shape. Concrete, timber and light. The essential, taken a little further.",
+    "introTitle": "Here the sun does not set\nuntil the end of August.",
+    "intro": "One hundred and twenty kilometres from Longyearbyen, at the end of a coast with no roads, between an inlet and a glacier. Thirty-two suites, a restaurant, a glass room above the water. And nothing else for a very long way. That is the idea.",
     "zeroLabel": "THE MEANING OF ∅",
-    "zeroTitle": "Less world.\nMore presence.",
+    "zeroTitle": "A zero\nin the name.",
     "zeros": [
       [
         "01",
         "Zero footprint",
-        "An ambition guiding every decision. Efficient systems, electric mobility and a more considered relationship with this place."
+        "Our heat comes from the air, not from diesel. The snowmobiles and quads are electric. Water goes back into the inlet cleaner than it came out."
       ],
       [
         "02",
         "Zero noise",
-        "Glass, timber and an acoustic joint. Hear only what deserves to be heard."
+        "The Aurora rests on its own rubber joint. Below, the machines work; above, not a glass trembles."
       ],
       [
         "03",
         "Zero hurry",
-        "The sun need not leave. You need not look at the clock."
+        "In July night never falls. There is no time for dinner and no time to come back. There is light, and the table stays laid."
       ]
     ],
-    "quote": "“The new luxury is not having more. It is allowing the rest of the world to feel, at last, far away.”",
+    "quote": "“The most expensive thing anyone can offer you in 2026 is that nobody knows where you are. The Arca charges for it handsomely, and it is worth it.”",
     "press": "NORD / JOURNAL · SUMMER SELECTION 2026",
-    "suiteTitle": "One room.\nAn entire horizon.",
-    "suiteText": "Three ways to retreat. The same attention to the unseen.",
-    "experiencesTitle": "The measure of a day\nis yours to decide.",
-    "auroraText": "Ten metres of glass. A table for twelve. An uninterrupted landscape.",
-    "wellnessText": "The warmth of water. The stillness of ice. A return to the essential.",
-    "expeditionsText": "Beyond the glass, the Arctic keeps all its questions."
+    "suiteTitle": "Thirty-two suites.\nNone faces another.",
+    "suiteText": "From the glazed garden to the Crown Suite, at the very top of the building.",
+    "experiencesTitle": "Days here last\nas long as you like.",
+    "auroraText": "Ten metres of curved glass, a mahogany table for twelve and the glacier on your left.",
+    "wellnessText": "Water at thirty-eight degrees. Ice a hundred metres away.",
+    "expeditionsText": "Kayaking under the midnight sun, the glacier on foot, the inlet by snowmobile. Always with a guide."
   },
   "arca": {
     "eyebrow": "THE PLACE",
-    "title": "Designed\nto disappear.",
-    "intro": "A horizontal gesture on the hillside. Architecture that does not compete with the Arctic: it learns to be quiet.",
+    "title": "Concrete,\ntimber and snow.",
+    "intro": "The Arca rests on the slope like one more stone. Outside, dark concrete. Inside, pale timber. Between the two, a very careful way of keeping the cold out.",
     "sections": [
       [
-        "Material and landscape",
-        "Dark concrete extends the rock. Laminated timber brings a warmth that needs no explanation. The building steps into the slope, preserving the horizon from every room."
+        "Stone and timber",
+        "The building steps down the slope so that every suite has the inlet in front and no one above. The laminated timber comes from the forests of Trøndelag. The concrete was tinted on site to match the rock of the shore."
       ],
       [
-        "Silence is built, too",
-        "The Aurora Lounge is separated from the main building by an independent acoustic joint. So the glasses never tremble. So a conversation never has to rise above a whisper."
+        "A joint for the glasses",
+        "The Aurora does not touch the rest of the building. It rests on the edge of the block, half of it cantilevered over the slope, separated by a hand-wide joint filled with rubber. During testing in the spring, the waiters left full glasses on the table while the generators started. Not one moved."
       ],
       [
-        "A considered envelope",
-        "Triple glazing, heat recovery and heat pumps adapt comfort to the archipelago climate. Zero footprint is our direction of travel, not a claim of certified zero emissions."
+        "Keeping the cold out",
+        "Triple glazing, rock wool and heat pumps that draw warmth from the air even in winter. Outside it may be thirty below; in your suite it will be twenty-two."
       ]
     ],
-    "planTitle": "A different way to be, at every level.",
+    "planTitle": "From the dock to the spire.",
     "levels": [
       "The Crown · roof and spire",
       "Upper Suites · rear wing",
@@ -122,56 +122,56 @@
       "Pier · helipad and sea access"
     ],
     "crownTitle": "The Crown",
-    "crown": "A fine line above the roof. A single red point in the sky. Our spire guides pilots and navigators by night.",
-    "crownNote": "In summer, a discreet presence. In the polar night, a point of reference."
+    "crown": "On the roof of the rear wing stands a steel spire with a red light at its tip. We call it the Crown. It is the first thing you see from the air, and a landmark for pilots flying the coast at night.",
+    "crownNote": "In summer you hardly notice it. In the polar night it is the only thing you can see."
   },
   "aurora": {
     "eyebrow": "AURORA LOUNGE",
-    "title": "The horizon\nhas a table.",
-    "intro": "A curved glass wall ten metres high. The inlet straight ahead. The glacier to the left. Nothing else between you and this place.",
+    "title": "The northernmost\ntable.",
+    "intro": "A wall of curved glass ten metres high. The inlet straight ahead, the glacier on the left, up the slope. On clear days you can see the far shore; on days of fog, nothing at all, and that is worth it too.",
     "tableTitle": "The captain’s table",
-    "table": "One piece of mahogany. Twelve guests. Saturday dinners find their rhythm here: courses arriving without hurry, conversations with no need to end.",
-    "barTitle": "The evening, your way.",
-    "bar": "Our bar interprets the north in precise glasses. Botanicals, saline notes and just enough warmth. Alcohol-free, too.",
+    "table": "A single piece of mahogany, made by a cabinetmaker in Bergen. Twelve chairs. On Saturdays we dine here, all together, at nine. The evening ends when it ends.",
+    "barTitle": "The bar.",
+    "bar": "Cocktails made to be drunk slowly while looking at the glacier. Also alcohol-free.",
     "cocktails": [
       [
         "Fjord",
-        "Gin, juniper, green apple and a saline note."
+        "Gin, juniper, green apple, salt."
       ],
       [
         "Skadi",
-        "Vodka, sea buckthorn and citrus."
+        "Vodka, sea buckthorn, lemon."
       ],
       [
         "Midnatt",
-        "Japanese whisky, birch and aromatic bitters."
+        "Japanese whisky, birch syrup, bitters."
       ],
       [
         "Nordlys · alcohol-free",
-        "Blueberry, rosemary and birch water."
+        "Lingonberry, rosemary, birch water."
       ]
     ],
     "camTitle": "Aurora Cam · live",
     "camStatus": "Connection lost · last frame 14/07/2026 11:02",
     "live": "LIVE",
-    "camNote": "A window onto the Aurora, wherever you are."
+    "camNote": "What is happening in the Aurora right now."
   },
   "suites": {
     "eyebrow": "STAYS",
-    "title": "The space\nto do nothing.",
-    "intro": "Linen, stone and timber. Three ways to close the door and open the horizon.",
+    "title": "Three ways\nto close the door.",
+    "intro": "Linen, stone and pale timber. No television in sight: if you want one, ask.",
     "items": [
       {
         "name": "Garden Suites",
         "image": "garden-suite",
         "size": "68 m²",
         "view": "Garden gallery and inlet",
-        "body": "A step from the glazed gallery, four trees in monumental planters accompany the passage. “The Hand”, a bronze sculpture by Einar Velde, seems to offer silence.",
+        "body": "They open onto the garden gallery, a glazed corridor with four rowan trees brought from Tromsø and “The Hand”, a bronze by Einar Velde. Beyond it, the inlet.",
         "features": [
-          "King-size bed and pillow menu",
+          "King-size bed, linen sheets",
           "Stone bathroom with freestanding tub",
-          "Reading lounge and individual climate control",
-          "Speciality coffee and blackout curtains"
+          "Reading corner by the window",
+          "Specialty coffee machine"
         ]
       },
       {
@@ -179,12 +179,12 @@
         "image": "high-suite",
         "size": "86 m²",
         "view": "Inlet and glacier front",
-        "body": "Three-metre windows above the water. An elevated perspective and a light that changes without disappearing. Here the landscape is part of the room.",
+        "body": "In the upper wing of the building, with three-metre windows over the water. From the bed you can see the glacier front.",
         "features": [
-          "King-size bed with linen bedding",
+          "King-size bed, linen sheets",
           "Separate living room",
           "Bathtub, rain shower and underfloor heating",
-          "Binoculars and a selection of Arctic books"
+          "Binoculars and a small Arctic library"
         ]
       },
       {
@@ -192,128 +192,128 @@
         "image": "crown-suite",
         "size": "148 m²",
         "view": "Panoramic inlet, glacier and mountains",
-        "body": "The highest residence at the Arca. A private pantry, an intimate dining room and the privilege of needing nothing more.",
+        "body": "The highest suite in the Arca, right beneath the Crown. It has its own dining room and a pantry stocked with whatever you ask for before you arrive.",
         "features": [
-          "Master bedroom and dressing room",
-          "Private living and dining rooms",
-          "Private pantry with personalised service",
-          "Panoramic bathroom and discreet access"
+          "Bedroom with dressing room",
+          "Private living and dining room",
+          "Private pantry",
+          "Bathroom overlooking the inlet"
         ]
       }
     ],
-    "gardenTitle": "A garden beyond the seasons.",
-    "gardenText": "Four trees. A bronze hand. The garden gallery is a pause within a pause."
+    "gardenTitle": "A garden inside the ice.",
+    "gardenText": "The rowans in the gallery are in leaf in July and in January. It is the only thing in the Arca that does not follow the seasons."
   },
   "dining": {
     "eyebrow": "DINING",
-    "title": "The north,\nserved slowly.",
-    "intro": "Ingredient-led Nordic cuisine. Season, provenance and a precise touch. Nothing to hide what matters.",
+    "title": "What there is,\ndone well.",
+    "intro": "Cold-water fish, island lamb, summer berries. A short menu that changes with whatever arrives on the boat.",
     "sections": [
       [
         "The restaurant",
-        "Cold-water fish, seasonal vegetables and house-made preserves. A short menu shaped by availability and our kitchen’s judgement. Every menu can be adapted to your allergies and preferences."
+        "Lunch and dinner on the main floor, overlooking the dock. If there is anything you cannot or do not eat, tell us when you book and you will not have to say it twice."
       ],
       [
-        "A cellar without latitude",
-        "Great Bordeaux wines, vintages selected for their balance and a collection of Japanese whiskies to linger over. A journey can happen in a glass."
+        "The cellar",
+        "Great Bordeaux vintages, champagne from small growers and a collection of Japanese whiskies that grows every season."
       ],
       [
-        "Saturdays at the Aurora",
-        "Twelve places at the captain’s table. A tasting menu conceived to share the rhythm of the landscape. The light changes; the conversation continues."
+        "Saturdays in the Aurora",
+        "A tasting menu at the mahogany table, twelve guests, at nine. Book ahead, and finish without looking at the clock."
       ]
     ],
-    "menuTitle": "An expression of summer",
+    "menuTitle": "This summer",
     "menu": [
       "Arctic char · dill · pickles",
       "Roasted roots · brown butter",
       "Northern berries · fresh cream"
     ],
-    "menuNote": "Illustrative seasonal selection. Menu subject to availability."
+    "menuNote": "The menu changes with what arrives each week."
   },
   "wellness": {
     "eyebrow": "WELLNESS",
-    "title": "Return\nto your own warmth.",
-    "intro": "Warm water facing the ice. The body discovers a different scale for rest.",
-    "spaTitle": "The most serene contrast",
-    "spa": "Sauna, personalised treatments and an outdoor hot tub open to the glacier. A circuit designed to restore calm, without counting the minutes.",
+    "title": "Hot water,\nfreezing air.",
+    "intro": "Sauna, treatments and an outdoor hot tub facing the glacier, at thirty-eight degrees.",
+    "spaTitle": "The spa",
+    "spa": "Open from seven in the morning until midnight, which in summer means during the day. Massages and treatments by appointment.",
     "medTitle": "Omni-Med v4",
-    "medSubtitle": "Care that reaches further.",
-    "med": "Our diagnostic capsule combines an examination bed and a sensor dome. Precision medicine connected in real time with our specialists in Zurich.",
-    "medNote": "Individual assessment under the supervision of Dr Anya Tamm. Any examination requires professional indication and informed consent. This service does not replace emergency care."
+    "medSubtitle": "A hospital, one bed away.",
+    "med": "The nearest hospital is one hundred and twenty kilometres away. That is why the Arca has its own doctor and an Omni-Med v4 diagnostic capsule, connected in real time to specialists in Zurich. You should not need it. But it is there.",
+    "medNote": "Medical service led by Dr Anya Tamm."
   },
   "expeditions": {
     "eyebrow": "EXPEDITIONS",
-    "title": "The world\nbeyond the glass.",
-    "intro": "To venture out is a choice. To discover, a privilege. Our guides accompany every step, every crossing and every return.",
+    "title": "Outside,\nthe Arctic.",
+    "intro": "Expeditions is our house of guides. They leave every day from the garage on the main floor, carrying the gear, the food and the rifle.",
     "items": [
       [
-        "The glacier, at the right distance",
-        "Read the landscape, ice and geology with specialist guides. Routes follow the conditions and always avoid calving zones.",
+        "The glacier",
+        "A walk up to the moraine with a guide who knows the ice. Never beneath the front: nobody goes near it.",
         "master"
       ],
       [
         "Kayaking under the midnight sun",
-        "Still water and a light that never ends. Small groups, dry suits and a route decided by the sea.",
+        "The inlet at eleven at night, the water still and the sun still high. Groups of six, drysuits.",
         "kayak"
       ],
       [
-        "The season of the northern lights",
-        "In winter, excursions to observe the polar sky. Nature decides when to raise the curtain.",
+        "Auroras",
+        "From October to March, night outings to watch the sky. Sometimes they do not appear. When they do, nobody speaks.",
         "winter"
       ],
       [
-        "Travel without breaking the silence",
-        "A snowmobile fleet for authorised winter routes and electric quad bikes for permitted summer journeys.",
+        "Snowmobiles and quads",
+        "An electric, silent fleet for the permitted routes. In winter, along the power-line track; in summer, along the shore.",
         "snowmobile"
       ]
     ],
-    "safetyTitle": "A territory deserving respect.",
-    "safety": "Every outing is led by armed guides carrying polar bear deterrents, in accordance with the safety measures applicable in Svalbard. Never venture out alone or approach wildlife. Routes depend on the weather and instructions from the authorities.",
+    "safetyTitle": "Bears.",
+    "safety": "There are more polar bears than people in Svalbard. No outing leaves without an armed, trained guide, as the archipelago's law requires. Please never wander away from the hotel on your own, not even for a photograph.",
     "suspended": "No expeditions operate during the temporary closure."
   },
   "gallery": {
     "eyebrow": "THE GALLERY",
-    "title": "Chosen objects.\nNothing more.",
-    "intro": "On the main level, an intimate selection of fine watches, high jewellery and luxury technical clothing. Pieces to accompany a journey. Or to remember it.",
+    "title": "Three shops\nin the gallery.",
+    "intro": "On the main floor, between the lobby and the restaurant.",
     "shops": [
       [
-        "Watchmaking",
-        "Precision mechanics and extraordinarily restrained designs. Private appointments to discover each piece."
+        "Watchmaker",
+        "Mechanical watches from Swiss and German manufactures, and a small workshop for adjustments and straps."
       ],
       [
-        "High jewellery",
-        "Precious metals, singular stones and a selection that prefers to whisper."
+        "Jeweller",
+        "Pieces by Nordic jewellers, many of them one of a kind."
       ],
       [
         "Polar atelier",
-        "Technical layers, natural fibres and garments designed for comfort at extreme latitudes."
+        "Technical clothing for being outside at thirty below without giving up looking like yourself."
       ]
     ],
-    "photoTitle": "The Arca, in photographs.",
-    "photoIntro": "Material, light and the constant presence of the landscape."
+    "photoTitle": "Photographs.",
+    "photoIntro": "The Arca in its first summer."
   },
   "arrival": {
     "eyebrow": "GETTING HERE",
-    "title": "Far from everything.\nClose to the essential.",
-    "intro": "Your journey begins in Longyearbyen. The final 120 kilometres along the coast are part of the stay.",
+    "title": "Getting\nto the Arca.",
+    "intro": "First to Longyearbyen. From there, the last stretch by air or by sea: there is no road.",
     "steps": [
       [
         "01",
-        "Arrive in the archipelago",
-        "Flights to Longyearbyen from Oslo and Tromsø. Frequencies and connections vary by season."
+        "Fly to Longyearbyen",
+        "Daily flights from Oslo and several a week from Tromsø."
       ],
       [
         "02",
-        "Fly the coastline",
-        "A coordinated helicopter transfer to our private helipad, subject to weather and operational conditions."
+        "Helicopter",
+        "Forty minutes along the coast to the helipad on our dock. We collect you at the airport."
       ],
       [
         "03",
-        "Arrive by water",
-        "Alternatively, a boat transfer to the hotel pier. Our team coordinates your luggage and arrival."
+        "Boat",
+        "In summer, about three hours along the coast to our dock. You will see seals and, with luck, whales."
       ]
     ],
-    "note": "All guest transfers are suspended while the resort is closed. Do not travel to the Arca without express confirmation from our team.",
+    "note": "There are no transfers while the temporary closure lasts. Please do not travel to Svalbard to stay at the Arca until we confirm that we have reopened.",
     "mapLabels": [
       "Svalbard",
       "Longyearbyen",
@@ -326,74 +326,74 @@
   },
   "reservations": {
     "eyebrow": "YOUR STAY",
-    "title": "We look forward to welcoming you.\nWhen the time is right.",
-    "intro": "Our team is assisting guests affected by the temporary closure. Thank you for your understanding.",
+    "title": "Reservations",
+    "intro": "We are writing personally to every guest affected by the closure. Thank you for your patience.",
     "arrival": "Arrival",
     "departure": "Departure",
     "guests": "Guests",
     "search": "Reservations temporarily suspended",
-    "disabled": "The booking engine is disabled. No new requests or payments are accepted.",
+    "disabled": "Reservations are suspended until further notice.",
     "faqTitle": "Information for our guests",
     "faq": [
       [
         "Has my stay been cancelled?",
-        "Yes. All scheduled stays have been cancelled as a precaution. There is no need to request a separate cancellation."
+        "Yes. All upcoming stays have been cancelled. You do not need to do anything."
       ],
       [
-        "Will I receive a full refund?",
-        "Yes. The full amount paid for your stay will be refunded to the original payment method. Processing times depend on the issuing institution."
-      ],
-      [
-        "Should I send my bank details?",
-        "No. We will not ask for card numbers, passwords or payments through this website to arrange a refund. For enquiries, email only your booking reference."
+        "Will I be refunded?",
+        "Yes, in full, to the same method you paid with."
       ],
       [
         "When will the hotel reopen?",
-        "The initial estimate was 72 hours. Update: until further notice. Reopening is subject to authorisation by the authorities."
+        "We expected to reopen within seventy-two hours. It now depends on the archipelago's authorities. We will write to you as soon as we know."
       ],
       [
         "Can I change my dates?",
-        "We can discuss a new stay once reopening is confirmed. For now, we cannot guarantee dates or availability."
+        "As soon as we have a reopening date, we will offer you priority to choose yours."
+      ],
+      [
+        "How do I contact you?",
+        "By email, with your booking number. The phone line is out of service."
       ]
     ],
     "phone": "Telephone line temporarily out of service",
-    "mailNote": "Reservations and affected stays are being handled exclusively by email."
+    "mailNote": "We are answering by email for as long as the closure lasts."
   },
   "team": {
     "eyebrow": "OUR PEOPLE",
-    "title": "Care\nhas a name.",
-    "intro": "Four perspectives. One idea of hospitality: anticipate, care and be there when it matters.",
+    "title": "Who is\nhere.",
+    "intro": "The Arca is run by, among others, these four people.",
     "people": [
       [
         "Ingrid Brandt",
         "Director of Operations",
         "Hamburg",
-        "Every detail matters. Especially the one a guest never notices."
+        "“If something works, it is because someone has checked it three times.”"
       ],
       [
         "Lars Haugen",
         "Head of Maintenance",
         "Lofoten",
-        "Comfort begins long before a light is switched on."
+        "“If you don’t see me, everything is fine.”"
       ],
       [
         "Dr Anya Tamm",
         "Medical Service",
         "Tallinn",
-        "Distance should never change the quality of care."
+        "“Up here, small things have to be treated early.”"
       ],
       [
         "Caspian Vance",
-        "Ownership Representative",
+        "Owner’s Representative",
         "New York",
-        "An extraordinary place demands an equally ambitious vision."
+        "“What we sell is time. And here, time stands still.”"
       ]
     ]
   },
   "legal": {
     "eyebrow": "INFORMATION",
-    "title": "Clarity\nis a service, too.",
-    "intro": "Editorial information, privacy and terms of use for this website.",
+    "title": "Legal notice",
+    "intro": "Information about this site.",
     "sections": [
       [
         "Legal notice",
