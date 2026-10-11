@@ -34,9 +34,9 @@ Configurar `site.config.json`:
 | `siteOrigin` | Origen absoluto para canonical, OpenGraph y sitemap | `https://alexgarciamartin.github.io` |
 | `fundName` | Nombre junto al símbolo azul marino del fondo | `[NOMBRE DEL FONDO]` |
 | `bookUrl` | URL definitiva de compra o información del libro | Vacío |
-| `reservationEmail` | Destinatario de los enlaces mailto | `reservas@arca-hotel.example` |
+| `reservationEmail` | Destinatario de los enlaces mailto | `reservas@arca-hotel.book` |
 
-El dominio `.example` es un marcador reservado, no un buzón operativo. Sustituirlo cuando exista un correo real. Hasta recibir la URL del libro, el pie enlaza al aviso legal y muestra «Información del libro próximamente», sin inventar una página de venta. Al definir `bookUrl`, el enlace aparece automáticamente.
+El correo `reservas@arca-hotel.book` forma parte de la ficción del sitio; no hay un buzón de reservas configurado. Sustituirlo si más adelante se desea usar un correo real. Hasta recibir la URL del libro, el pie enlaza al aviso legal y muestra «Información del libro próximamente», sin inventar una página de venta. Al definir `bookUrl`, el enlace aparece automáticamente.
 
 Las rutas están centralizadas en `src/main.tsx`. Estilos en `src/styles.css`. Logotipo y favicon SVG en `public/`. El mapa y el esquema de niveles son SVG accesibles hechos a medida, no mapas de navegación.
 
