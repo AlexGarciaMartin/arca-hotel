@@ -77,3 +77,16 @@ Dirección de sus prompts originales:
 ## Entrega web
 
 Finales en `public/images/<archivo>-480.webp`, `-960.webp` y `-1600.webp`: 17 conjuntos, 51 archivos. Reescalado Lanczos, WebP método 6. Exteriores: calidad 75 para 480/960 y 78 para 1600; portada de 960 a calidad 55 para reducir la descarga inicial. Los interiores conservan su optimización anterior. Textos alternativos ES/EN en `src/locales/`. `imageRevision` en `site.config.json` versiona las URLs y precargas: `aurora-alzado`.
+
+
+## Fotografías por sección — actualización editorial
+
+La panorámica general se conserva en Inicio, El Arca (arquitectura) y una sola entrada de la galería. Se eliminan la panorámica duplicada de Inicio, la repetición en La Corona y la entrada `hero` duplicada en la galería. Cada cabecera editorial comparte pantalla con una fotografía del tema: Aurora/interior, Suites/galería del jardín, Gastronomía/plato, Bienestar/spa, Expeditions/kayak, Galería/relojería y Cómo llegar/muelle. La foto del jardín se muestra una sola vez dentro de Suites.
+
+### Muelle: fotografía propia para Cómo llegar
+
+Herramienta: image_gen integrada. Referencia: `public/images/master-1600.webp`, utilizada para luz y paisaje; nueva toma, no recorte de la panorámica. Activos finales: `public/images/dock-{480,960,1600}.webp`, WebP calidad 72, con alt ES/EN y srcset. Esta toma sustituye la panorámica que anteriormente se utilizaba como `dock`.
+
+Prompt final:
+
+Use case: photorealistic-natural. Asset type: distinct arrival-page photograph for ARCA luxury Svalbard hotel. Reference image: geographical, material and July midnight-sun lighting continuity ONLY; do not repeat the wide hotel overview. Make a NEW close architectural hospitality photograph taken standing on the private dock looking diagonally along its 50–60m concrete deck toward the open inlet. Dock dominates foreground: understated helipad with thin painted circle and H, small black unloading crane at deck edge, mooring bollards, subtle inset lights. Calm dark-blue water and huge Arctic rocky mountains, patches of summer snow, glacier distant on the RIGHT with a broad rocky shore buffer. Warm low midnight sun from left. Hotel is uphill BEHIND camera and entirely outside frame, no buildings. Wide 16:9 editorial photography, realistic modest-scale working pier serving exclusive hotel, natural desaturated colors, pale concrete, dark steel, no people, helicopter, logos, overlay text or watermark. Photographic polish same as reference, fresh viewpoint, not an aerial view.
