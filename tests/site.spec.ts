@@ -39,7 +39,7 @@ test('language, menu, gallery, disabled reservations and 404',async({page})=>{
  await page.goto('./#/reservas');await expect(page.locator('fieldset')).toHaveAttribute('disabled','');for(const control of await page.locator('fieldset input, fieldset select, fieldset button').all())await expect(control).toBeDisabled();
  await page.goto('./#/nonexistent');await expect(page.locator('h1')).toContainText('taking longer');
 });
-test('visual captures',async({page},info)=>{await page.goto('./');await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(async()=>{await Promise.all([...document.images].map(async im=>{im.loading='eager';await im.decode().catch(()=>{});}));});await page.locator('.hero img').evaluate((im:HTMLImageElement)=>im.decode());await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});});
+test('visual captures',async({page},info)=>{await page.goto('./');await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(async()=>{await Promise.all([...document.images].map(async im=>{im.loading='eager';await im.decode().catch(()=>{});}));});await page.locator('.hero img').evaluate((im:HTMLImageElement)=>im.decode());await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});await page.goto('./#/el-arca');await page.locator('.plan-layout svg').screenshot({path:`test-results/plan-${info.project.name}.png`});});
 
 test('reservation access and suspension are visible on arrival',async({page})=>{
  await page.goto('./');

@@ -35,6 +35,7 @@ Configurar `site.config.json`:
 | `fundName` | Nombre junto al símbolo azul marino del fondo | `[NOMBRE DEL FONDO]` |
 | `bookUrl` | URL definitiva de compra o información del libro | Vacío |
 | `reservationEmail` | Destinatario de los enlaces mailto | `reservas@arca-hotel.book` |
+| `imageRevision` | Versión de las URLs de imagen y sus precargas; actualizar al sustituir fotos | `aurora-roof` |
 
 El correo `reservas@arca-hotel.book` forma parte de la ficción del sitio; no hay un buzón de reservas configurado. Sustituirlo si más adelante se desea usar un correo real. Hasta recibir la URL del libro, el pie enlaza al aviso legal y muestra «Información del libro próximamente», sin inventar una página de venta. Al definir `bookUrl`, el enlace aparece automáticamente.
 
@@ -50,7 +51,7 @@ La contrapartida es que los fragmentos no se indexan como páginas independiente
 
 ## Imágenes y tipografía
 
-17 conjuntos de imágenes generadas expresamente. La revisión selectiva renueva siete fotografías con una referencia exterior común y deriva OpenGraph de la nueva imagen maestra; las nueve fotografías restantes se conservan. Cada conjunto tiene variantes WebP de 480, 960 y 1600 píxeles: 51 archivos, aproximadamente 5 MB en total. `Photo` implementa `srcset`, `sizes`, dimensiones y carga diferida; el hero tiene prioridad de descarga. OpenGraph dispone de su propia imagen.
+17 conjuntos de imágenes generadas expresamente. Los exteriores comparten una referencia arquitectónica corregida: hotel de escala pequeña y Aurora alto sobre el bloque, con vuelo delantero sin apoyos. Portada y OpenGraph derivan de la fotografía maestra de sol de medianoche; muelle e invierno usan esa misma arquitectura. Los interiores se conservan. Cada conjunto tiene variantes WebP de 480, 960 y 1600 píxeles: 51 archivos, aproximadamente 5.4 MB en total. `Photo` implementa `srcset`, `sizes`, dimensiones y carga diferida; el hero tiene prioridad de descarga. OpenGraph dispone de su propia imagen.
 
 Inventario y dirección de los prompts: `IMAGE_PROMPTS.md`. Los originales de generación no son necesarios para construir la web; las versiones WebP finales están incluidas en el repositorio.
 

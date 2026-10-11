@@ -423,8 +423,8 @@
     "hostingPolicy": "Hosting privacy policy"
   },
   "alt": {
-    "master": "Aerial summer view of the Arca: concrete blocks, Aurora pavilion at the eastern end, glacier to the right and private pier.",
-    "hero": "The Aurora glowing at March blue hour, with the glacier to the right of the hotel and the Crown’s red tip light.",
+    "master": "Panorama of the small Arca beneath the midnight sun: tall Aurora atop the right end of the concrete block, red-tipped spire and glacier separated by a rocky slope.",
+    "hero": "The Arca under the midnight sun, with the Aurora perched atop the concrete and its front half cantilevered without columns.",
     "aurora": "Aurora interior with curved glass, laminated timber beams and a mahogany table for twelve, glacier to the left.",
     "garden-suite": "Garden Suite with linen bedding, pale timber and a glazed gallery.",
     "high-suite": "Upper Suite with a three-metre window overlooking the inlet.",
@@ -435,10 +435,10 @@
     "omnimed": "Omni-Med v4 diagnostic capsule in the windowless service-level infirmary, with artificial lighting and a soft blue sensor light.",
     "snowmobile": "Snowmobile on a winter trail marked with red-striped poles.",
     "kayak": "Kayak on calm Svalbard waters beneath the midnight sun.",
-    "dock": "Private pier with helipad, small unloading crane, black steel sheet piling and broad stairs to the loading yard.",
+    "dock": "Private dock with helipad and small crane; behind it, the Aurora perched atop the hotel and a distant glacier to the right.",
     "watch": "Watch boutique window with unbranded timepieces on stone displays.",
     "cam": "Frame from a fixed high-corner camera in the empty Aurora, with its mahogany table and glacier beyond.",
-    "og": "Summer panorama of the Arca above the inlet, with the Aurora and glacier east of the building.",
-    "winter": "Northern lights above the frozen inlet, with the glacier to the right of the Arca and the Crown’s red tip light."
+    "og": "The small Arca beneath immense Svalbard mountains, with the Aurora atop the block and the glacier to the right.",
+    "winter": "Northern lights above the frozen inlet, with the small Arca, its elevated Aurora and a glacier separated by a snowy slope."
   }
 }
