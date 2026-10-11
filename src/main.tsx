@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { createContext, useContext, useEffect, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { HashRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
@@ -31,7 +31,11 @@ function Photo({name,className='',eager=false,sizes='100vw'}:{name:ImageKey;clas
 function Arrow(){return <span aria-hidden="true">↗</span>}
 function TextLink({to,children}:{to:string;children:ReactNode}){return <Link className="text-link" to={to}>{children}<Arrow/></Link>}
 function Mark({large=false}:{large?:boolean}){return <img className={`wordmark ${large?'large':''}`} src={asset('logo.svg')} width="330" height="70" alt="ARCA-∅"/>}
-function Clock(){const {lang,t}=useCopy();const formatter=useMemo(()=>new Intl.DateTimeFormat(lang,{timeZone:'Arctic/Longyearbyen',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}),[lang]);const [tick,setTick]=useState(0);useEffect(()=>{const id=window.setInterval(()=>setTick(v=>v+1),1000);return()=>clearInterval(id)},[]);const time=bootWall+(performance.now()-bootMonotonic)*59/60;return <div className="clock" data-tick={tick}><time>{formatter.format(time)}</time><span>{t.ui.localTime}</span></div>}
+function Clock(){
+ const {t}=useCopy();const [time,setTime]=useState('—:—:—');
+ useEffect(()=>{const worker=new Worker(new URL('./clock.worker.ts',import.meta.url),{type:'module'});worker.postMessage({wall:bootWall,elapsed:performance.now()-bootMonotonic});worker.onmessage=event=>setTime(event.data);return()=>worker.terminate()},[]);
+ return <div className="clock"><time>{time}</time><span>{t.ui.localTime}</span></div>;
+}
 function Notice({full=false}:{full?:boolean}){const {t}=useCopy();return full?<div className="notice-card"><p className="eyebrow">{t.notice.title}</p><p>{t.notice.body}</p><strong>{t.notice.update}</strong></div>:<aside className="notice" aria-label={t.notice.title}><details open={window.innerWidth>900}><summary><span>{t.notice.title}</span><span className="notice-update">{t.notice.update}</span><span className="notice-plus" aria-hidden="true">+</span></summary><p>{t.notice.body}</p></details></aside>}
 function Header(){
  const {t,lang,setLang}=useCopy();const ref=useRef<HTMLElement>(null);const dialog=useRef<HTMLDialogElement>(null);const location=useLocation();
