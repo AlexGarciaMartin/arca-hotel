@@ -41,7 +41,7 @@ Use case: lighting-weather. Transform this exact corrected small ARCA hotel land
 
 ### hero y og
 
-`hero` utiliza la fotografía maestra de sol de medianoche en 16:9. `og` utiliza un recorte central de la misma imagen en 1600:837, sin texto incrustado. No son generaciones independientes. El encuadre móvil de portada se centra en el edificio.
+`hero` utiliza la fotografía maestra de sol de medianoche en 16:9. `og` utiliza un recorte central de la misma imagen en 1600:837, sin texto incrustado. No son generaciones independientes. El encuadre móvil de portada se centra en el edificio y desplaza la toma hacia arriba con un aumento moderado para mostrar el Aurora sobre el panel de reservas. La imagen panorámica original conserva la escala del edificio bajo un tercio del ancho.
 
 ## Prompts de interiores conservados de la revisión anterior
 
