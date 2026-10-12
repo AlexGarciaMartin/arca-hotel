@@ -55,3 +55,7 @@ La dirección corta se sirve con dist/musica/index.html y redirige a /#/musica. 
 | 27 | Arca-∅ · Capítulo 27 | [Abrir](https://open.spotify.com/playlist/5hr2F4Dvfb0NFoA4L7t1gh) |
 | 28 | Arca-∅ · Capítulo 28 | [Abrir](https://open.spotify.com/playlist/4f24AdpP4F685JBgojlSZO) |
 | 29 | Arca-∅ · Capítulo 29 | [Abrir](https://open.spotify.com/playlist/5cLoYrqQrJot1ztV79LRMc) |
+
+## Cabecera para lectores
+
+`/musica` usa una cabecera compacta (60 px móvil, 64 px escritorio), con marca y selector ES/EN. El aviso de cierre, el reloj, el menú de hotel y las reservas se muestran únicamente en las rutas del hotel. El pie de Música incluye una vuelta discreta al hotel y el aviso legal. El embed conserva `encrypted-media`; la web no garantiza reproducción completa ni reutiliza la sesión de la app Spotify.

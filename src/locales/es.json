@@ -457,6 +457,7 @@
     "privacy": "Al cargarlo, te conectas con Spotify y se aplican sus condiciones de privacidad.",
     "open": "Abrir en Spotify",
     "help": "Si solo escuchas un fragmento, o quieres escuchar con la pantalla bloqueada, abre la lista en la app de Spotify.",
-    "note": "La música es opcional. Tu último capítulo se recuerda en este navegador."
+    "note": "La música es opcional. Tu último capítulo se recuerda en este navegador.",
+    "back": "Volver al hotel"
   }
 }

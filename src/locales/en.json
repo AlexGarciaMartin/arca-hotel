@@ -457,6 +457,7 @@
     "privacy": "Loading the player connects you to Spotify under its privacy terms.",
     "open": "Open in Spotify",
     "help": "If you only hear a preview, or want to listen with your screen locked, open the playlist in the Spotify app.",
-    "note": "Music is optional. Your last chapter is remembered in this browser."
+    "note": "Music is optional. Your last chapter is remembered in this browser.",
+    "back": "Back to the hotel"
   }
 }

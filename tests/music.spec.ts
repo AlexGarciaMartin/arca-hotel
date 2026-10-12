@@ -44,13 +44,18 @@ test('printed URL, complete soundtrack, navigation, persistence and languages', 
  await page.getByRole('button',{name:'EN',exact:true}).click();
  await expect(page.locator('h1')).toHaveText('Music for every chapter.');
  await expect(page.getByRole('combobox',{name:'Select chapter'})).toHaveValue('13');
- await expect(page.locator('.clock time')).toHaveText(/\d{2}:\d{2}:\d{2}/);
+ await expect(page.locator('.sound-header')).toBeVisible();
+ await expect(page.locator('.notice, .reservation-link, .menu-toggle, .clock')).toHaveCount(0);
+ const header=await page.locator('.sound-header').boundingBox();expect(header!.height).toBeLessThanOrEqual(64);
+ await expect(page.locator('a[href="#/reservas"]')).toHaveCount(0);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  expect(errors).toEqual([]);
  await page.screenshot({path:`test-results/music-${info.project.name}.png`,fullPage:true});
  await page.getByRole('button',{name:'Load Spotify player'}).click();
  await page.locator('.brand').click();
  await expect(iframe).toHaveCount(0);
+ await expect(page.locator('.header .reservation-link')).toBeVisible();
+ await expect(page.locator('.header .notice')).toBeVisible();
 });
 
 test('chapter selection works when local storage is unavailable',async({page})=>{
