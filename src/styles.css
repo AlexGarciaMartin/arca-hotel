@@ -45,3 +45,5 @@
 @media(max-width:760px){.sound-header{padding-inline:20px;height:60px}.sound-header .wordmark{width:105px}.sound-room{padding-top:30px}.sound-footer{padding:12px 20px;gap:12px}.sound-footer>span{width:100%}}
 
 .sound-header .language button{color:#afc2c2}.sound-header .language button[aria-pressed="true"]{color:#e7ebe5;border-bottom-color:#e7ebe5}
+
+.sound-header .wordmark{filter:brightness(0) invert(94%)}.sound-header+main{padding-top:0;background:#122025}
