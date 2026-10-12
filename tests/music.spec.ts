@@ -11,7 +11,7 @@ test('printed URL, complete soundtrack, navigation, persistence and languages', 
  // Pages redirects directory URLs to a trailing slash; Vite preview does not.
  await page.goto(process.env.PUBLIC_URL ? './musica' : './musica/');
  await expect(page).toHaveURL(/#\/musica$/);
- await expect(page.locator('h1')).toHaveText('Escucha el silencio.');
+ await expect(page.locator('h1')).toHaveText('Música para cada capítulo.');
  await expect(page).toHaveTitle('Experiencia sonora · ARCA-∅');
  const select=page.getByRole('combobox',{name:'Seleccionar capítulo'});
  await expect(select.locator('option')).toHaveCount(30);
@@ -42,7 +42,7 @@ test('printed URL, complete soundtrack, navigation, persistence and languages', 
  await expect(select).toHaveValue('13');
  await expect(iframe).toHaveCount(0);
  await page.getByRole('button',{name:'EN',exact:true}).click();
- await expect(page.locator('h1')).toHaveText('Listen to the silence.');
+ await expect(page.locator('h1')).toHaveText('Music for every chapter.');
  await expect(page.getByRole('combobox',{name:'Select chapter'})).toHaveValue('13');
  await expect(page.locator('.clock time')).toHaveText(/\d{2}:\d{2}:\d{2}/);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);

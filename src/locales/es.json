@@ -444,8 +444,8 @@
   },
   "music": {
     "eyebrow": "EXPERIENCIA SONORA",
-    "title": "Escucha el silencio.",
-    "intro": "Elige dónde estás, carga Spotify, pulsa play y vuelve al libro.",
+    "title": "Música para cada capítulo.",
+    "intro": "Elige tu capítulo, pulsa play y vuelve al libro.",
     "prologue": "Prólogo",
     "chapter": "Capítulo",
     "previous": "Capítulo anterior",
