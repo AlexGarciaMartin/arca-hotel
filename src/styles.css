@@ -43,3 +43,5 @@
 .sound-footer{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;background:#122025;color:#afc2c2;border-top:1px solid #ffffff1f;padding:20px max(24px,calc((100% - 650px)/2));font-size:10px}
 .sound-footer a{display:flex;align-items:center;min-height:44px}
 @media(max-width:760px){.sound-header{padding-inline:20px;height:60px}.sound-header .wordmark{width:105px}.sound-room{padding-top:30px}.sound-footer{padding:12px 20px;gap:12px}.sound-footer>span{width:100%}}
+
+.sound-header .language button{color:#afc2c2}.sound-header .language button[aria-pressed="true"]{color:#e7ebe5;border-bottom-color:#e7ebe5}
