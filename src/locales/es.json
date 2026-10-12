@@ -52,7 +52,8 @@
     "photoCredit": "Fotografía del resort",
     "planCaption": "Sección del edificio sobre la ladera",
     "mapCaption": "El Arca, a 120 km de Longyearbyen por la costa",
-    "newsletter": "El privilegio de estar lejos."
+    "newsletter": "El privilegio de estar lejos.",
+    "soundtrack": "Experiencia sonora"
   },
   "notice": {
     "title": "Aviso a nuestros huéspedes — 14 de julio de 2026",
@@ -409,7 +410,7 @@
       ],
       [
         "Privacidad",
-        "Esta web no contiene formularios de envío, cuentas, pagos ni analítica. El idioma se mantiene únicamente durante la visita, sin guardarse en el navegador. Las imágenes y fuentes se sirven desde el alojamiento del sitio. GitHub Pages puede tratar datos técnicos de conexión, como la dirección IP, conforme a su propia política de privacidad."
+        "Esta web no contiene formularios de envío, cuentas, pagos ni analítica. El idioma se mantiene únicamente durante la visita, sin guardarse en el navegador. Las imágenes y fuentes se sirven desde el alojamiento del sitio. GitHub Pages puede tratar datos técnicos de conexión, como la dirección IP, conforme a su propia política de privacidad. La sección de experiencia sonora guarda únicamente el último capítulo elegido en este navegador. El reproductor de Spotify se carga solo al pulsar su botón; entonces el navegador se conecta con Spotify, que puede utilizar sus propias cookies y tratar datos según su política de privacidad."
       ],
       [
         "Contacto por correo",
@@ -417,7 +418,7 @@
       ],
       [
         "Cookies",
-        "Este sitio no instala cookies propias ni de terceros, ni utiliza almacenamiento local para seguimiento. No hay píxeles publicitarios ni vídeos de servicios externos. Por ello no se muestra un panel de consentimiento para cookies."
+        "Este sitio no utiliza cookies propias ni almacenamiento local para seguimiento. En la experiencia sonora, el último capítulo se guarda de forma local. Si decides cargar el reproductor externo, Spotify puede utilizar cookies propias de su servicio. Puedes escuchar mediante el enlace «Abrir en Spotify» sin cargar el reproductor aquí."
       ]
     ],
     "hostingPolicy": "Política de privacidad del alojamiento"
@@ -440,5 +441,22 @@
     "cam": "Fotograma de una cámara fija en una esquina alta del Aurora vacío, con la mesa de caoba y el glaciar al fondo.",
     "og": "Panorámica del Arca bajo el sol de medianoche, con el Aurora rectangular junto a la planta principal y el glaciar distante a la derecha.",
     "winter": "Aurora boreal sobre el Arca y la ensenada helada; el Aurora rectangular comparte cota de suelo con la planta principal y vuela hacia el glaciar."
+  },
+  "music": {
+    "eyebrow": "EXPERIENCIA SONORA",
+    "title": "Escucha el silencio.",
+    "intro": "Elige dónde estás, carga Spotify, pulsa play y vuelve al libro.",
+    "prologue": "Prólogo",
+    "chapter": "Capítulo",
+    "previous": "Capítulo anterior",
+    "next": "Capítulo siguiente",
+    "reading": "ESTÁS LEYENDO",
+    "select": "Seleccionar capítulo",
+    "player": "Reproductor de Spotify",
+    "load": "Cargar reproductor de Spotify",
+    "privacy": "Al cargarlo, te conectas con Spotify y se aplican sus condiciones de privacidad.",
+    "open": "Abrir en Spotify",
+    "help": "Si solo escuchas un fragmento, o quieres escuchar con la pantalla bloqueada, abre la lista en la app de Spotify.",
+    "note": "La música es opcional. Tu último capítulo se recuerda en este navegador."
   }
 }
