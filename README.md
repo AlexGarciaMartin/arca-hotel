@@ -1,8 +1,8 @@
 # ARCA-∅ — Donde el tiempo se detiene
 
-Web del resort ficticio de la novela **Arca-∅**, de **A. Riven**. La edición editorial permanece en el **14 de julio de 2026**. Sin backend, pagos, formularios de envío, analítica ni cookies de terceros.
+Web del resort ficticio de la novela **Arca-∅**, de **A. Riven**. La edición editorial permanece en el **14 de julio de 2026**. Sin backend, pagos, formularios de envío ni analítica. Spotify se carga únicamente al pulsar su botón en la experiencia sonora.
 
-- Sitio: https://alexgarciamartin.github.io/arca-hotel/
+- Sitio: https://arca-hotel.com
 - Repositorio: https://github.com/AlexGarciaMartin/arca-hotel
 - Stack: Vite + React + TypeScript + React Router.
 
@@ -120,3 +120,7 @@ Fuentes oficiales para la configuración:
 La nota de expediciones se ha redactado como política del resort con guías armados y medios de disuasión, sin afirmar que la ley exige universalmente un guía armado para toda persona. Referencia: https://www.sysselmesteren.no/en/weapon/
 
 Los nombres y la cita NORD / JOURNAL forman parte de la ficción. El aviso legal explica el carácter narrativo, la generación de imágenes y la inexistencia de una oferta real de alojamiento.
+
+## Experiencia sonora para la novela
+
+https://arca-hotel.com/musica redirige a `/#/musica`, sin cambiar el HashRouter. Contiene Prólogo y capítulos 01–29, con un único embed de Spotify, navegación y memoria local del último capítulo. En Vite preview, usar `/musica/` para probar el archivo de redirección. El inventario, la integración, las limitaciones y las comprobaciones están en [SOUNDTRACK.md](SOUNDTRACK.md). El build rechaza playlists vacías o repetidas. Las pruebas de música también se ejecutan sobre la web publicada mediante el workflow existente.

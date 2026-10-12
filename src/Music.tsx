@@ -1,12 +1,63 @@
 import {useEffect, useState} from 'react';
 import playlists from './playlists.json';
-const storageKey='arca-reading-chapter';
-export default function Music({lang}:{lang:'es'|'en'}) {
- const es=lang==='es';
- const [chapter,setChapter]=useState(()=>{try{const n=Number(localStorage.getItem(storageKey));return Number.isInteger(n)&&n>=1&&n<=30?n:1}catch{return 1}});
- const [connected,setConnected]=useState(false);
- const playlist=playlists.find(p=>p.chapter===chapter);
- const id=playlist?.url.match(/^https:\/\/open\.spotify\.com\/playlist\/([a-zA-Z0-9]+)(?:\?|$)/)?.[1];
- useEffect(()=>{try{localStorage.setItem(storageKey,String(chapter))}catch{/* Storage is optional. */}},[chapter]);
- return <section className="sound-room"><div className="sound-content"><p className="eyebrow">ARCA-∅ / {es?'EXPERIENCIA SONORA':'SOUND EXPERIENCE'}</p><h1>{es?'Escucha el silencio.':'Listen to the silence.'}</h1><p className="sound-intro">{es?'Cada capítulo tiene su propia atmósfera. Elige dónde estás, pulsa play y vuelve al libro.':'Every chapter has its own atmosphere. Choose where you are, press play and return to the book.'}</p><div className="sound-console"><div className="sound-selector"><button disabled={chapter===1} onClick={()=>setChapter(c=>c-1)} aria-label={es?'Capítulo anterior':'Previous chapter'}>←</button><label><span>{es?'ESTÁS LEYENDO':'YOU ARE READING'}</span><select value={chapter} onChange={e=>setChapter(Number(e.target.value))} aria-label={es?'Seleccionar capítulo':'Select chapter'}>{playlists.map(p=><option value={p.chapter} key={p.chapter}>{es?'Capítulo':'Chapter'} {String(p.chapter).padStart(2,'0')}</option>)}</select></label><button disabled={chapter===30} onClick={()=>setChapter(c=>c+1)} aria-label={es?'Capítulo siguiente':'Next chapter'}>→</button></div><div className="sound-player">{id?(connected?<iframe key={id} title={`${es?'Música del capítulo':'Music for chapter'} ${chapter}`} src={`https://open.spotify.com/embed/playlist/${id}?theme=0`} width="100%" height="152" style={{border:0,borderRadius:12}} allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"/>:<button className="sound-connect" onClick={()=>setConnected(true)}>{es?'Cargar reproductor de Spotify':'Load Spotify player'} <span aria-hidden="true">▷</span></button>):<p className="sound-pending">{es?'La banda sonora de este capítulo estará disponible próximamente.':'The soundtrack for this chapter is coming soon.'}</p>}</div>{id&&<a className="sound-external" href={playlist!.url} target="_blank" rel="noopener noreferrer">{es?'Abrir en Spotify':'Open in Spotify'} ↗</a>}<p className="sound-help">{es?'Si solo escuchas un fragmento, abre la lista en Spotify para continuar.':'If you only hear a preview, open the playlist in Spotify to continue.'}</p></div><p className="sound-note">{es?'La música es opcional. Puedes quedarte aquí y cambiar de capítulo cuando lo necesites.':'Music is optional. Stay here and change chapters whenever you need.'}</p></div></section>;
+import es from './locales/es.json';
+import en from './locales/en.json';
+
+const storageKey = 'arca-reading-chapter';
+
+export default function Music({lang}: {lang: 'es' | 'en'}) {
+ const t = (lang === 'es' ? es : en).music;
+ const [chapter, setChapter] = useState(() => {
+  try {
+   const saved = localStorage.getItem(storageKey);
+   const value = saved === null ? 0 : Number(saved);
+   return playlists.some(p => p.chapter === value) ? value : 0;
+  } catch { return 0; }
+ });
+ const [connected, setConnected] = useState(false);
+ const index = playlists.findIndex(p => p.chapter === chapter);
+ const playlist = playlists[index];
+ const label = (n: number) => n === 0 ? t.prologue : `${t.chapter} ${String(n).padStart(2, '0')}`;
+
+ useEffect(() => {
+  try { localStorage.setItem(storageKey, String(chapter)); }
+  catch { /* Listening does not require browser storage. */ }
+ }, [chapter]);
+
+ return <section className="sound-room" aria-labelledby="sound-title">
+  <div className="sound-content">
+   <p className="eyebrow">ARCA-∅ / {t.eyebrow}</p>
+   <h1 id="sound-title">{t.title}</h1>
+   <p className="sound-intro">{t.intro}</p>
+   <div className="sound-console">
+    <div className="sound-selector">
+     <button disabled={index === 0} onClick={() => setChapter(playlists[index - 1].chapter)} aria-label={t.previous}>←</button>
+     <label><span>{t.reading}</span>
+      <select value={chapter} onChange={e => setChapter(Number(e.target.value))} aria-label={t.select}>
+       {playlists.map(p => <option value={p.chapter} key={p.id}>{label(p.chapter)}</option>)}
+      </select>
+     </label>
+     <button disabled={index === playlists.length - 1} onClick={() => setChapter(playlists[index + 1].chapter)} aria-label={t.next}>→</button>
+    </div>
+    <p className="sound-current" role="status" aria-live="polite">{label(chapter)}</p>
+    <div className="sound-player">
+     {connected ? <iframe
+      // Replacing this browsing context stops its audio before loading the next list.
+      key={playlist.id}
+      title={`${t.player}: ${label(chapter)}`}
+      src={`https://open.spotify.com/embed/playlist/${playlist.id}?theme=0`}
+      width="100%" height="352" style={{border: 0, borderRadius: 12}}
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      allowFullScreen
+     /> : <div className="sound-connect-wrap">
+      <button className="sound-connect" onClick={() => setConnected(true)}>{t.load}<span aria-hidden="true">▷</span></button>
+      <p className="sound-privacy">{t.privacy}</p>
+     </div>}
+    </div>
+    <a className="sound-external" href={playlist.url} target="_blank" rel="noopener noreferrer">{t.open} ↗</a>
+    <p className="sound-help">{t.help}</p>
+   </div>
+   <p className="sound-note">{t.note}</p>
+  </div>
+ </section>;
 }

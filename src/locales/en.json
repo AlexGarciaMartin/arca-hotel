@@ -52,7 +52,8 @@
     "photoCredit": "Resort photography",
     "planCaption": "Section of the building on the slope",
     "mapCaption": "The Arca, 120 km from Longyearbyen along the coast",
-    "newsletter": "The privilege of being far away."
+    "newsletter": "The privilege of being far away.",
+    "soundtrack": "Sound experience"
   },
   "notice": {
     "title": "Notice to our guests — 14 July 2026",
@@ -409,7 +410,7 @@
       ],
       [
         "Privacy",
-        "This website has no submission forms, accounts, payments or analytics. Language selection lasts only for the visit and is not saved in your browser. Images and fonts are served from the site’s hosting. GitHub Pages may process technical connection data, including IP addresses, under its own privacy policy."
+        "This website has no submission forms, accounts, payments or analytics. Language selection lasts only for the visit and is not saved in your browser. Images and fonts are served from the site’s hosting. GitHub Pages may process technical connection data, including IP addresses, under its own privacy policy. The sound experience stores only the last chapter selected in this browser. The Spotify player loads only when you press its button; your browser then connects to Spotify, which may use its own cookies and process data under its privacy policy."
       ],
       [
         "Email contact",
@@ -417,7 +418,7 @@
       ],
       [
         "Cookies",
-        "This site sets no first-party or third-party cookies and uses no local storage for tracking. It has no advertising pixels or embedded third-party video. Accordingly, no cookie consent panel is displayed."
+        "This site uses no first-party cookies or local storage for tracking. The sound experience remembers the last chapter locally. If you choose to load the external player, Spotify may use cookies from its service. You can listen using the “Open in Spotify” link without loading the player here."
       ]
     ],
     "hostingPolicy": "Hosting privacy policy"
@@ -440,5 +441,22 @@
     "cam": "Frame from a fixed high-corner camera in the empty Aurora, with its mahogany table and glacier beyond.",
     "og": "Midnight-sun panorama of the Arca, with the rectangular Aurora beside the main floor and a distant glacier to the right.",
     "winter": "Northern lights above the Arca and frozen inlet; the rectangular Aurora shares the main floor elevation and projects toward the glacier."
+  },
+  "music": {
+    "eyebrow": "SOUND EXPERIENCE",
+    "title": "Listen to the silence.",
+    "intro": "Choose where you are, load Spotify, press play and return to the book.",
+    "prologue": "Prologue",
+    "chapter": "Chapter",
+    "previous": "Previous chapter",
+    "next": "Next chapter",
+    "reading": "YOU ARE READING",
+    "select": "Select chapter",
+    "player": "Spotify player",
+    "load": "Load Spotify player",
+    "privacy": "Loading the player connects you to Spotify under its privacy terms.",
+    "open": "Open in Spotify",
+    "help": "If you only hear a preview, or want to listen with your screen locked, open the playlist in the Spotify app.",
+    "note": "Music is optional. Your last chapter is remembered in this browser."
   }
 }

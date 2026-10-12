@@ -1,4 +1,6 @@
 import fs from 'node:fs';
+const playlists=JSON.parse(fs.readFileSync('src/playlists.json','utf8'));
+if(playlists.length!==30 || new Set(playlists.map(p=>p.id)).size!==30 || playlists.some((p,i)=>p.chapter!==i || !/^[a-zA-Z0-9]{22}$/.test(p.id) || p.url!==`https://open.spotify.com/playlist/${p.id}` || p.name!==`Arca-∅ · ${i===0?'Prólogo':`Capítulo ${String(i).padStart(2,'0')}`}`)) throw new Error('Soundtrack must contain a unique, named Spotify playlist for the prologue and chapters 01–29.');
 for (const file of fs.readdirSync('public/images')) {
  const b=fs.readFileSync('public/images/'+file);
  if(b.length<32 || b.toString('ascii',0,4)!=='RIFF' || b.toString('ascii',8,12)!=='WEBP') throw new Error('Invalid WebP asset: '+file);
